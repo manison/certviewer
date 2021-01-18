@@ -33,4 +33,5 @@
 
 .vs/
 *.user
+*.aps
 /vcproj2019/vc2019/
