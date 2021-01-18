@@ -5,10 +5,6 @@
   <PropertyGroup Label="UserMacros">
     <ShortProjectName>certview</ShortProjectName>
   </PropertyGroup>
-  <PropertyGroup>
-    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
-  </PropertyGroup>
-  <ItemDefinitionGroup></ItemDefinitionGroup>
   <ItemGroup>
     <BuildMacro Include="ShortProjectName">
       <Value>$(ShortProjectName)</Value>
