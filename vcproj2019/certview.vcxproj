@@ -171,6 +171,7 @@
     <Link>
       <AdditionalLibraryDirectories>$(VcpkgRoot)..\x64-windows-static\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>D:\Projects\openssl\libcrypto_static.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <DelayLoadDLLs>Ws2_32.dll;bcrypt.dll</DelayLoadDLLs>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
